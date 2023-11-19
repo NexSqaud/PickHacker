@@ -1,5 +1,7 @@
 ﻿using HarmonyLib;
 
+using Il2Cpp;
+
 using MelonLoader;
 
 using System.Reflection;
@@ -25,7 +27,7 @@ namespace PickCrafter
         {
             if(Input.GetKeyDown(KeyCode.P))
             {
-                RunicDust.Award(999_999_999, RunicDust.RunicRewardOrigins.FreeChest);
+                RunicDust.Instance.Award(999_999_999, RunicDust.RunicRewardOrigins.FreeChest);
             }
 
             if(Input.GetKeyDown(KeyCode.O)) 
@@ -43,22 +45,25 @@ namespace PickCrafter
 
             if(Input.GetKeyDown(KeyCode.B)) 
             {
-                GameData.EarnPicks(99_999_999_999_999_999_999d);
+                GameData.Instance.EarnPicks(99_999_999_999_999_999_999d);
             }
 
             if(Input.GetKeyDown(KeyCode.F))
             {
-                PrestigeController.ExecutePrestige();
+                PrestigeController.Instance.ExecutePrestige();
             }
 
             if(Input.GetKeyDown(KeyCode.V))
             {
-                EnderPearls.Award(100_000);
+                EnderPearls.Instance.Award(100_000);
             }
 
             if(Input.GetKeyDown(KeyCode.M))
             {
-                FurnaceController.Instance.CompleteCurrentOperation(FurnaceController.CraftQueueSize);
+                foreach(var furnace in FurnaceManager.Instance.furnaceControllers)
+                {
+                    furnace.CompleteCurrentOperation(furnace.CraftQueueSize);
+                }
             }
 
             if(Input.GetKeyDown(KeyCode.N))
