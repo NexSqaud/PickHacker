@@ -53,6 +53,11 @@ namespace PickCrafter
                 PrestigeController.Instance.ExecutePrestige();
             }
 
+            if(Input.GetKeyDown(KeyCode.H))
+            {
+                AscensionController.Instance.AscensionCrystalQuantity += 100_000_000;
+            }
+
             if(Input.GetKeyDown(KeyCode.V))
             {
                 EnderPearls.Instance.Award(100_000);
