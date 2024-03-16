@@ -30,12 +30,12 @@ namespace PickCrafter
                 RunicDust.Instance.Award(999_999_999, RunicDust.RunicRewardOrigins.FreeChest);
             }
 
-            if(Input.GetKeyDown(KeyCode.O)) 
+            if(Input.GetKeyDown(KeyCode.O))
             {
                 PickaxePowerController.ResetCoolDown();
             }
 
-            if(Input.GetKeyDown(KeyCode.G)) 
+            if(Input.GetKeyDown(KeyCode.G))
             {
                 for(int i = 0; i < 10000; i++)
                 {
@@ -43,9 +43,9 @@ namespace PickCrafter
                 }
             }
 
-            if(Input.GetKeyDown(KeyCode.B)) 
+            if(Input.GetKey(KeyCode.B) && Input.GetKey(KeyCode.Mouse0))
             {
-                GameData.Instance.EarnPicks(99_999_999_999_999_999_999d);
+                GameData.Instance.EarnPicks(999_999_999_999_999_999_999d);
             }
 
             if(Input.GetKeyDown(KeyCode.F))
