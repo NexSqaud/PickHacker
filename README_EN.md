@@ -21,6 +21,7 @@ After first launch save can disappear for few seconds.
 |G|Explode 10000 blocks|
 |B + Hold LMB|Give 999 999 999 999 999 999 999 picks per frame|
 |F|Give next prestige level (with progress reset)|
+|H|Give 100 000 000 ascension crystals|
 |V|Give 100 000 pearls|
 |M|Instantly complete furnace craft|
 |N|Toggle falling block effect|
