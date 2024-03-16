@@ -19,7 +19,7 @@ After first launch save can disappear for few seconds.
 |P|Give 999 999 999 runic dust (if click too much, it become negative! game feature!)|
 |O|Reset pickaxe power active timer|
 |G|Explode 10000 blocks|
-|B|Give 99 999 999 999 999 999 999 picks||
+|B + Hold LMB|Give 999 999 999 999 999 999 999 picks per frame|
 |F|Give next prestige level (with progress reset)|
 |V|Give 100 000 pearls|
 |M|Instantly complete furnace craft|
