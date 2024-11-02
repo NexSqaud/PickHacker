@@ -6,9 +6,8 @@ Cheat for PickCrafter
 
 ## How to launch
 1. Download and install latest version of [MelonLoader](https://github.com/LavaGang/MelonLoader/releases/latest)
-2. Copy all game files to upper directory (path to Mods should be .../steamapps/common/PickCrafter/Mods)
-3. Download latest version of [PickHacker](https://github.com/NexSqaud/PickHacker/releases/latest) and move to Mods folder
-4. Launch game from Steam. After launch command pallete should appear. **Do not close it! Game will close too!**
+2. Download latest version of [PickHacker](https://github.com/NexSqaud/PickHacker/releases/latest) and move to Mods folder
+3. Launch game from Steam. After launch command pallete should appear. **Do not close it! Game will close too!**
 
 After first launch save can disappear for few seconds.
 
